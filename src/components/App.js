@@ -29,6 +29,7 @@ function App() {
       <button onClick = {
         () => {
         DisplayUpdate(Display = !Display)
+        //^This is causing errors
         console.log(Display)
         // updateDisplay() 
       }
